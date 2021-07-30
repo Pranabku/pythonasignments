@@ -1,0 +1,7 @@
+a= input("enter 2 numbers").split()
+c=int(a[0])+int(a[1])
+print("sum value is", c)
+c=int(a[0]/int(a[1]))
+print("default divide", c)
+c=bin(int(a[0])+int(a[1]))
+print("type converted divide", c)
